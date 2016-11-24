@@ -194,7 +194,7 @@ class MyScanner(Scanner):
     ])
 
 
-filename = "text.c"
+filename = "test.c"
 f = open(filename, "r")
 scanner = MyScanner(f, filename)
 
